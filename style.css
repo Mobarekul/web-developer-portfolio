@@ -20,6 +20,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
+  /* I will try to add more padding */
 }
 .nav-title {
   color: #181818;
@@ -40,4 +42,20 @@ nav li {
 nav li > a {
   text-decoration: none;
   color: #474747;
+}
+/* Header related styles */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-welcome {
+}
+.hardy {
+  width: 500px;
+  height: 600px;
 }
