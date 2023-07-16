@@ -3,6 +3,10 @@ body {
   font-family: "Libre Baskerville", serif;
   font-family: "Open Sans", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -149,7 +153,7 @@ main section {
   gap: 50px;
 }
 .ins {
-  color: var(--dark-03, #757575);
+  color: #757575;
 
   font-size: 18px;
 
@@ -220,4 +224,66 @@ textarea {
 }
 .s-icon a {
   margin: 10px;
+}
+/* Responsive styles */
+.hide {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .skill-container {
+    display: block;
+  }
+  .do-description {
+    padding: 30px;
+  }
+  .resume-container {
+    flex-direction: column;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .footer-column {
+    width: 70%;
+  }
+  .about {
+    padding: 10px;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+
+  nav > ul {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner-content {
+    width: 300px;
+    text-align: center;
+  }
+  .btn-primary {
+    margin-top: 10px;
+  }
+  .description {
+    margin-top: 10px;
+  }
 }
